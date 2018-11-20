@@ -15,7 +15,7 @@ var progress = 0
 
 function init() {
   // your code here
-    document.addEventListener("keydown", codeSeek)
+    document.body.addEventListener("keydown", codeSeek)
 
     function codeSeek(event) {
       var x = event.key;
