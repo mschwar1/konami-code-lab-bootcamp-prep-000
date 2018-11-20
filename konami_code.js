@@ -31,3 +31,4 @@ function init() {
           progress = 0;
       }
     }
+}
